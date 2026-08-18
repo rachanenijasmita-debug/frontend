@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: white;
+        }
+
+        /* Main Box */
+        .container {
+            width: 90%;
+            margin: 5px auto;
+            border: 1px solid #999999;
+        }
+
+        /* Header Box */
+        .header {
+            height: 60px;
+            background-color: #1f6b56;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 12px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 25px;
+        }
+
+        .buttons button {
+            background-color: white;
+            border: 1px solid #777777;
+            padding: 3px 7px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        /* Body Layout */
+        .body {
+            display: flex;
+            min-height: 435px;
+        }
+
+        /* Sidebar Box */
+        .sidebar {
+            width: 18%;
+            background-color: #d7eaf3;
+            border-right: 1px solid #999;
+            padding-top: 10px;
+        }
+
+        .sidebar a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 12px 5px;
+            font-size: 14px;
+        }
+
+        .sidebar a:hover {
+            background-color: #e9cbc4;
+        }
+
+        /* Main Content Box */
+        .main {
+            width: 82%;
+            padding: 30px 25px;
+            text-align: center;
+        }
+
+        .main h2 {
+            margin: 0 0 12px 0;
+            font-size: 21px;
+        }
+
+        .main p {
+            margin-top: 0;
+            font-size: 14px;
+        }
+
+        /* Product Boxes */
+        .products {
+            display: flex;
+            margin-top: 28px;
+            background-color: #f5f5f5;
+        }
+
+        .product {
+            width: 25%;
+            min-height: 225px;
+            padding: 10px;
+            border-right: 1px solid white;
+        }
+
+        .product:last-child {
+            border-right: none;
+        }
+
+        .product img {
+            width: 125px;
+            height: 110px;
+            object-fit: cover;
+        }
+
+        .product h3 {
+            margin: 10px 0 12px 0;
+            font-size: 16px;
+        }
+
+        .product p {
+            font-size: 13px;
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        /* Horizontal Line */
+        .line {
+            margin-top: 38px;
+            border-top: 1px solid #e8ebd8;
+        }
+
+        /* Footer Box */
+        .footer {
+            height: 45px;
+            background-color: #6b1f4f;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>E-Commerce</h1>
+
+            <div class="buttons">
+                <button>Login</button>
+                <button>Register</button>
+            </div>
+        </div>
+
+        <!-- Body -->
+        <div class="body">
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <a href="#">Home</a>
+                <a href="#">Smartphones</a>
+                <a href="#">Laptops</a>
+                <a href="#">Air Pods</a>
+                <a href="#">Smart Watches</a>
+                <a href="#">Special Offers</a>
+            </div>
+
+            <!-- Main Content -->
+            <div class="main">
+
+                <h2>About our Electronic store</h2>
+
+                <p>
+                    Explore modern gadgets and electronics designed to make your everyday life easier.
+                </p>
+
+                <!-- Product Boxes -->
+                <div class="products">
+
+                    <!-- Smartphone Box -->
+                    <div class="product">
+                        <img src="smart phones.jpg"
+                             alt="Smartphone">
+
+                        <h3>Smartphones</h3>
+
+                        <p>
+                            Latest smartphones with powerful features and stylish designs.
+                        </p>
+                    </div>
+
+                    <!-- Laptop Box -->
+                    <div class="product">
+                        <img src="laptop.webp"
+                             alt="Laptop">
+
+                        <h3>Laptops</h3>
+
+                        <p>
+                            Fast and reliable laptops for students and professionals.
+                        </p>
+                    </div>
+
+                    <!-- Headphone Box -->
+                    <div class="product">
+                        <img src="airpods.webp"
+                             alt="Air Pods">
+
+                        <h3>Headphones</h3>
+
+                        <p>
+                            Enjoy clear sound with comfortable wireless headphones.
+                        </p>
+                    </div>
+
+                    <!-- Smart Watch Box -->
+                    <div class="product">
+                        <img src="smart watch.jpg"
+                             alt="Smart Watch">
+
+                        <h3>Smart Watches</h3>
+
+                        <p>
+                            Track your time, activities and stay connected every day.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="line"></div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            © 2026 E-Commerce | Your Smart Shopping Partner
+        </div>
+
+    </div>
+
+</body>
+</html>
