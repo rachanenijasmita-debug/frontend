@@ -1,0 +1,14 @@
+var name = "Ravi";
+var name = "Ravi123";
+document.write(name);
+let age = 30;
+age = 25;
+document.write("<br>" + age);
+let a = 10;
+let b = 3;
+document.write("<br>" + (a + b));
+document.write("<br>" + (a - b));
+document.write("<br>" + (a * b));
+document.write("<br>" + (a / b));
+document.write("<br>" + (a % b));
+document.write("<br>" + (a ** b));
